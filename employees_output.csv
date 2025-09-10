@@ -1,0 +1,21 @@
+employee_id,first_name,last_name,branch_id,position,salary,hire_date
+1,Aarav,Shah,1,Manager,75000,1/15/2018
+2,Isha,Patil,2,Clerk,35000,3/22/2020
+3,Rohan,Mehta,3,NULL,42000,7/10/2019
+4,Priya,Singh,4,Loan Officer,50000,5/5/2021
+5,Vijay,Kumar,5,NULL,NULL,1/30/2022
+6,Anaya,Desai,6,Clerk,32000,11/12/2020
+7,Karan,Joshi,7,Manager,78000,9/18/2017
+8,Sanya,Reddy,8,Clerk,34000,8/25/2021
+9,Rahul,Verma,9,NULL,45000,4/14/2019
+10,Neha,Iyer,10,Loan Officer,52000,6/9/2020
+11,Arjun,Malhotra,11,Manager,76000,12/1/2018
+12,Mira,Gupta,12,Clerk,33000,2/15/2022
+13,Amit,Sharma,13,NULL,NULL,3/20/2021
+14,Pooja,Rao,14,Clerk,31000,7/7/2020
+15,Vikram,Thakur,15,Manager,77000,10/10/2016
+16,Anjali,Dubey,16,NULL,48000,11/21/2019
+17,Raj,Sinha,17,Clerk,34000,9/5/2021
+18,Sunita,Chopra,18,Loan Officer,51000,4/18/2020
+19,Alok,Bansal,19,Manager,79000,8/30/2015
+20,Kiran,Srivastava,20,Clerk,32000,5/12/2022
