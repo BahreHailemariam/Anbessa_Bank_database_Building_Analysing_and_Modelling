@@ -36,11 +36,101 @@ The project demonstrates:
 
 - **Other:** SQL Workbench / MySQL CLI
 ## 📂 Project Structure
-``bash 
+```bash
 Anbessa-Bank-Database/
 │── data/                 # Raw & processed data files (CSV/Excel)
 │── sql/                  # SQL scripts (schema, queries, stored procedures)
 │── models/               # ER diagrams & data models
 │── reports/              # Excel dashboards & reports
 │── README.md             # Project documentation
+```
+## 🏗️ Database Design
 
+- **Entities:** Customers, Accounts, Transactions, Loans, Branches
+
+- **Relationships:**
+
+   - One customer → Many accounts
+
+   - One account → Many transactions
+
+   - One branch → Many customers
+
+   - One customer → Many loans
+
+✅ Normalized database up to **3rd Normal Form (3NF)** to ensure efficiency.
+
+## 🔍 Key SQL Queries & Analyses
+
+- Customer segmentation (by balance, location, account type)
+
+- Transaction trend analysis (daily, monthly, yearly)
+
+- Loan repayment tracking
+
+- Branch-level performance analysis
+
+- Fraud detection indicators (suspicious transaction patterns)
+  
+## 📊 Excel Analysis & Reporting
+
+- Imported **MySQL** query outputs into Excel
+
+- Built **pivot tables** for account/transaction analysis
+
+- Created **dashboards** for management insights
+
+- Visualized **KPIs** such as:
+
+  - Total deposits & withdrawals
+
+  - Average loan repayment rates
+
+  - Customer growth trends
+
+## 🚀 How to Run the Project
+
+1.Clone this repository:
+
+```bash
+git clone https://github.com/yourusername/Anbessa-Bank-Database.git
+```
+
+2.Import the SQL schema into your MySQL server:
+
+```bash
+mysql -u root -p < sql/anbessa_bank_schema.sql
+```
+
+
+3.Load sample data from ``/data`` folder into the database.
+
+4.Run analysis queries in ``/sql/queries.sql``.
+
+5.Export results and open ``/reports/AnbessaBank_Dashboard.xlsx`` for insights.
+
+## 📌 Use Cases
+
+- Banking data management system prototype
+
+- Academic research project in **database** systems or data analysis
+
+- Business case for financial institutions
+
+## 📈 Future Enhancements
+
+- Integration with **Power BI/Tableau** for advanced dashboards
+
+- Automation of **ETL pipelines** for real-time updates
+
+- Implementation of **machine learning models** for fraud detection & customer churn prediction
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with detailed explanations of changes.
+
+## 📜 License
+
+This project is licensed under the MIT License – free to use and modify.
+
+✨ Author: Bahre Hailemariam <br />
+📧 Contact: bahre.hail@gmail.com
