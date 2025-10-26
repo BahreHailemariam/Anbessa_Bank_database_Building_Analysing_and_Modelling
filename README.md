@@ -132,5 +132,7 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 This project is licensed under the MIT License – free to use and modify.
 
-✨ Author: Bahre Hailemariam <br />
-📧 Contact: bahre.hail@gmail.com
+## 👤 Author
+**Bahre Hailemariam**  
+📍 *Data Analyst & BI Developer \| 4+ Years Experience*\
+📩 [Email Adress](bahre.hail@gmail.com) | 🌐[Portfolio](https://bahre-hailemariam-data-analyst.crd.co/) |💼[LinkedIn](https://www.linkedin.com/in/bahre-hailemariam/) | 📊[GitHub](https://github.com/BahreHailemariam)
